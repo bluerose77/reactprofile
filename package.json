@@ -1,6 +1,6 @@
 {
   "homepage": "http://bluerose77.github.io/reactprofile",
-  "name": "react-profile-card",
+  "name": "reactprofile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
