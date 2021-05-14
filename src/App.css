@@ -1,38 +1,86 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #606dbc;
+}
+
+
+.main-container {
+  background-color: white;
+  position: relative;
+  width: 28%;
+  height: auto;
+  margin: 3.5em auto;
   text-align: center;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  margin-top: 2em;
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tech {
+  font-size: 24px;
+  margin: -20px 0px 10px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btns {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 5px 0px 18px 0px;
+}
+
+.btns button {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btns button:hover {
   color: white;
+  background-color: rgb(111, 105, 230);
 }
 
-.App-link {
-  color: #61dafb;
+.counter {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.heart {
+  background: transparent;
+  border: none;
+  margin: 0px -14px 0px 10px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+a {
+  padding: 8px; 
+}
+
+.fa-github, .fa-linkedin-in {
+  color: #1887cc;
+  padding: 20px 0px;
+}
+
+/* Tablet Screen Sizes */
+@media only screen and (max-width: 992px) {
+  .main-container {
+    width: 50%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Mobile Screen Sizes */
+@media only screen and (max-width: 600px) {
+  .main-container {
+    width: 85%;
   }
 }
